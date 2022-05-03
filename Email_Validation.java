@@ -1,3 +1,7 @@
+/**
+* JUnit Parameterised Test to validate multiple entry for the Email Address.
+*/
+
 package com.assignment21.bl;
 
 import java.util.ArrayList;
@@ -7,7 +11,7 @@ import java.util.regex.Pattern;
 public class Email_Validation {
         public static void main(String[] args) {
             ArrayList<String> emails = new ArrayList();
-
+             //Valid emails
             emails.add("user@domain.com");
             emails.add("user@domain.co.in");
             emails.add("user1@domain.com");
